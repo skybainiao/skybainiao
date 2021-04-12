@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BikeSystem/BikeSystem.iml" filepath="$PROJECT_DIR$/BikeSystem/BikeSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/skybainiao.iml" filepath="$PROJECT_DIR$/.idea/skybainiao.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="444.0" prefWidth="998.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.HomePageView">
+   <children>
+      <ListView fx:id="listView" layoutX="14.0" layoutY="14.0" prefHeight="410.0" prefWidth="532.0" style="-fx-background-color: grey;" />
+      <Label fx:id="ownerName" layoutX="572.0" layoutY="211.0" prefHeight="17.0" prefWidth="27.0" text="ON" textFill="#a1a1a1" />
+      <Label fx:id="price" layoutX="713.0" layoutY="211.0" text="Pr" textFill="#8a8a8a" />
+      <Label fx:id="ownerPN" layoutX="570.0" layoutY="158.0" text="OPN" textFill="#a1a1a1" />
+      <Label fx:id="description" layoutX="572.0" layoutY="292.0" text="Des" textFill="#9a9a9a" />
+      <TextField fx:id="setOwnerName" layoutX="624.0" layoutY="206.0" prefHeight="27.0" prefWidth="62.0" style="-fx-background-color: grey;" />
+      <TextField fx:id="setPrice" layoutX="752.0" layoutY="206.0" prefHeight="27.0" prefWidth="62.0" style="-fx-background-color: grey;" />
+      <TextField fx:id="setOwnerPhoneNumber" layoutX="624.0" layoutY="153.0" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: grey;" />
+      <Button fx:id="ownerPNButton" layoutX="832.0" layoutY="153.0" mnemonicParsing="false" onAction="#enterOwnerPN" style="-fx-background-color: grey;" text="SetOwnerphoneNumber" />
+      <Button fx:id="priceButton" layoutX="832.0" layoutY="260.0" mnemonicParsing="false" onAction="#enterPrice" prefHeight="27.0" prefWidth="151.0" style="-fx-background-color: grey;" text="SetPrice" />
+      <Button fx:id="ownerNameButton" layoutX="832.0" layoutY="206.0" mnemonicParsing="false" onAction="#enterOwnerName" prefHeight="27.0" prefWidth="151.0" style="-fx-background-color: grey;" text="SetOwnerName" />
+      <Button fx:id="desButton" layoutX="832.0" layoutY="314.0" mnemonicParsing="false" onAction="#enterDescription" prefHeight="27.0" prefWidth="151.0" style="-fx-background-color: grey;" text="SetDescription" />
+      <TextArea fx:id="setDescription" layoutX="624.0" layoutY="260.0" prefHeight="81.0" prefWidth="190.0" style="-fx-background-color: grey;">
+         <font>
+            <Font name="Apple Color Emoji" size="13.0" />
+         </font></TextArea>
+      <Label layoutX="597.0" layoutY="91.0" text="Second-hand bicycle trading system" textFill="#a4a4a4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="addButton" layoutX="624.0" layoutY="365.0" mnemonicParsing="false" onAction="#addBike" prefHeight="27.0" prefWidth="367.0" style="-fx-background-color: grey;" text="Save" />
+      <Label layoutX="597.0" layoutY="24.0" text="Welcome to" textFill="#ababab">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="903.0" layoutY="12.0" text="Test demo" textFill="#a8a8a8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
